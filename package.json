@@ -1,0 +1,7 @@
+{
+  "name": "react-apollo-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Gabriel Ng <gabrielng15@gmail.com>",
+  "license": "MIT"
+}
