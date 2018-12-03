@@ -3,14 +3,14 @@ import ApolloClient from 'apollo-boost';
 import { ApolloProvider } from 'react-apollo';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Launches from './components/Launches';
-import Launch from './components/launch';
+import Launch from './components/Launch';
 
 import './App.css';
 import Logo from './spacexlogo.png';
 
 const client = new ApolloClient({
-  uri: 'http://localhost:5000/graphql'
-})
+  uri: '/graphql'
+});
 
 class App extends Component {
   render() {
