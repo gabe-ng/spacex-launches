@@ -7979,6 +7979,14 @@ react-is@^16.3.2:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.6.3.tgz#d2d7462fcfcbe6ec0da56ad69047e47e56e7eac0"
   integrity sha512-u7FDWtthB4rWibG/+mFbVd5FvdI20yde86qKGx4lVUTWmPlSWQ4QxbBIrrs+HnXGbxOUlUzTAP/VDmvCwaP2yA==
 
+react-loader-spinner@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/react-loader-spinner/-/react-loader-spinner-2.2.0.tgz#dfe3a7be20ca5a9ed269ef467292a4556c723467"
+  integrity sha512-d6JeBFHR7GUmCm7p45d7vj43JY9mLYVRVy8M3HtMjkqtXjT2vqThxBXM8NOju8qPA51DEw/9JAkMHOpLrB5P6Q==
+  dependencies:
+    babel-runtime "^6.26.0"
+    prop-types "^15.6.2"
+
 react-moment@^0.8.4:
   version "0.8.4"
   resolved "https://registry.yarnpkg.com/react-moment/-/react-moment-0.8.4.tgz#18eb59e1541c8b216353e23c21e9db50e42e2edb"

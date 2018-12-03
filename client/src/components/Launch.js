@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import gql from "graphql-tag";
 import { Query } from "react-apollo";
 import { Link } from "react-router-dom";
+import Loader from "react-loader-spinner";
 import classNames from "classnames";
 
 const LAUNCH_QUERY = gql`
@@ -30,7 +31,8 @@ class Launch extends Component {
       <React.Fragment>
         <Query query={LAUNCH_QUERY} variables={{ flight_number }}>
           {({ loading, error, data }) => {
-            if (loading) return <h4>Loading...</h4>;
+            if (loading) return <Loader type="RevolvingDot" height="100"
+              width="100" color="#FFFFFF" />
             if (error) console.log(error);
 
             const {
